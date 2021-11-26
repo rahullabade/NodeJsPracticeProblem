@@ -1,7 +1,7 @@
 {
-    let number = Math.floor((Math.random() * 10) % 7) + 1;
-
-    switch (number) {
+    let number = Math.floor( (Math.random() * 10 ) % 7 ) + 1;
+    
+    switch(number){
         case 1:
             console.log("Sunday");
             break;
@@ -27,4 +27,4 @@
             console.log("invalid input");
             break;
     }
-}
+    }
